@@ -67,6 +67,14 @@
 	margin: 5px;
 
 }
+.parrafohabilidades {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 23px;
+	color: blue;
+	padding-top: 35px;
+	margin: 10px;
+	}
+	
 @media only screen and (max-width: 500px) {
 .nav__ul {
 	display: none;
