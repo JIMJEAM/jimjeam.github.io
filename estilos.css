@@ -36,17 +36,19 @@
 .nav__responsive-button-container {
 	position: absolute;
 	width: 100%;
-	font-size: 25px;
+	font-size: 45px;
 	text-align: right;
-	background-color: #69c;
-	margin-top: -64px;
+	background-color: rgb(13, 153, 196);
+	margin-top: -44px;
 	z-index: 100;
 	
 }
 
 .nav__responsive-button {
-	padding: 6px 20px;
+	position: absolute;
+	padding: 6px 37px;
 	width: 100%;
+	
 	
 }
 .me {
@@ -81,18 +83,18 @@
 	}
 
 .nav {
-	height: 37px;
+	height: 64px;
 	width: 100%;
-	background-color: #69c;
+	background-color:rgb(13, 153, 196);
     }
 .nav__responsive-ul {
 	display: block;
 	position: absolute;
-	background-color: #69c;
+	background-color:rgb(13, 153, 196);
 	width: 100%;
 	margin-top: 37px;
 	padding-top: 27px;
-	height: 37px;
+	height: 7px;
 	
 	
 	}
@@ -100,7 +102,7 @@
 	position: relative;
 		top: -1000px;
 		height: 100vh;
-		background-color: #9bf;
+		background-color: rgb(13, 153, 196);
 		transition: all 1s;
 		z-index: 1;
 		padding-top: 27px;
@@ -108,7 +110,7 @@
 }
 
 .nav__li-container:hover {
-	transform: translateY(-1000px);
+	transform: translateY(1000px);
 }
 .nav__responsive-li {
 	width: 100%;
