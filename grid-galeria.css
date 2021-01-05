@@ -3,6 +3,7 @@
     font-family: 'sen', sans-serif;
     font-weight: 100;
   }
+  
   .nav__responsive-ul {
     display: none;
   }
@@ -97,6 +98,7 @@
   
   .grid-container {
     display: grid;
+    background-color: #69c;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-auto-rows: minmax(200px, auto);
     gap: 20px;
