@@ -1,12 +1,7 @@
 * {
-	background-color:  rgb(13, 153, 196);
 	font-family: 'sen', sans-serif;
 	font-weight: 100;
 }
-
- body { 
-	 background-image: linear-gradient(135deg, #1087d6 0%, #0c9bfa 100%);
- }
 
 .nav__responsive-ul {
 	display: none;
@@ -52,7 +47,7 @@
 .nav__responsive-button {
 	position: absolute;
 	padding: 6px 37px;
-	width: 85%;
+	width: 100%;
 	
 	
 }
@@ -64,28 +59,27 @@
 	margin: 5px;
 }
 
-.parrafoquiensoy p {
+.parrafoquiensoy {
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	font-size: 23px;
-	color: rgb(94, 5, 236);
+	color: blue;
 	justify-content: left;
 	justify-items: left;
 	padding: 10px;
 	margin: 5px;
 
 }
- .parrafohabilidades p {
+.parrafohabilidades {
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	font-size: 23px;
-	color: rgb(94, 5, 236);
+	color: blue;
 	padding-top: 35px;
-	margin: 25px;
-	} 
+	margin: 10px;
+	}
 	
 @media only screen and (max-width: 500px) {
 .nav__ul {
 	display: none;
-	
 	}
 
 .nav {
@@ -93,11 +87,9 @@
 	width: 100%;
 	background-color:rgb(13, 153, 196);
     }
-
 .nav__responsive-ul {
 	display: block;
 	position: absolute;
-	list-style: none;
 	background-color:rgb(13, 153, 196);
 	width: 100%;
 	margin-top: 37px;
@@ -119,7 +111,6 @@
 
 .nav__li-container:hover {
 	transform: translateY(1000px);
-	
 }
 .nav__responsive-li {
 	width: 100%;
@@ -137,7 +128,6 @@
 .nav__responsive-li a {
 	color: #016;
 	text-decoration: none;
-	list-style: none;
 }
 
 .nav__responsive-ul:hover > .nav__li-container {
@@ -150,11 +140,10 @@ flex-wrap: wrap;
 width: 100%;
 }
 
-
 .parrafoquiensoy p {
 	font-size: 14px;
 	font-family: arial, Helvetica, sans-serif;
-	color: rgb(94, 5, 236);
+	color: blue;
 	font-style: bold;
 	padding-top: 8px;
 	padding-left: 5px;
@@ -170,21 +159,14 @@ width: 100%;
 	object-fit: cover;
 }
 
-.parrafohabilidades p {
+.parrafohabilidades {
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	font-size: 10px;
-	color:rgb(94, 5, 236);
+	color: blue;
 	padding-top: 35px;
 	margin: 10px;
 }
 
-#footer {
-	width: 100%;
-    height: 81px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-ul {
-    list-style: none;
+[.nav__ul animate__animated animate__backInRight] {
+	list-style: none;
 }
