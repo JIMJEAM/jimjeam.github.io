@@ -185,6 +185,6 @@ width: 100%;
     bottom: 0;
     left: 0;
 }
-.nav__responsive-li {
+ul {
     list-style: none;
 }
