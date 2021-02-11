@@ -167,6 +167,6 @@ width: 100%;
 	margin: 10px;
 }
 
-[.nav__ul animate__animated animate__backInRight] {
-	list-style: none;
+h1 {
+	font-size: 14px;
 }
