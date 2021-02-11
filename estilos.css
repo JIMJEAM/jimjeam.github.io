@@ -93,6 +93,7 @@
 	width: 100%;
 	background-color:rgb(13, 153, 196);
     }
+
 .nav__responsive-ul {
 	display: block;
 	position: absolute;
@@ -136,6 +137,7 @@
 .nav__responsive-li a {
 	color: #016;
 	text-decoration: none;
+	list-style: none;
 }
 
 .nav__responsive-ul:hover > .nav__li-container {
@@ -147,6 +149,7 @@ flex-direction: column;
 flex-wrap: wrap;
 width: 100%;
 }
+
 
 .parrafoquiensoy p {
 	font-size: 14px;
