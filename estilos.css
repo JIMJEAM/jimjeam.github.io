@@ -27,7 +27,7 @@
 	color: #fff;
 	text-decoration: none;
 }
-.nav__li i {
+ a {
 	box-sizing: border-box;
 	text-align: right;
 	margin-right: 5px;
@@ -167,6 +167,8 @@ width: 100%;
 	margin: 10px;
 }
 
-h1 {
+h1, p.h3 {
 	font-size: 14px;
+	color: red;
 }
+
